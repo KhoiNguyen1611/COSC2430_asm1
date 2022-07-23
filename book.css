@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("library.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+} 
+
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+  
+.navbar1 a {
+color: #f2f2f2;
+padding: 14px 16px;
+border-style:solid;
+margin: 7px;
+text-decoration: none;
+font-family: 'Lora', serif;
+}
+
+.navbar1 #logo{
+    font-size:2rem;
+    border-style: none;
+}
+
+.navbar1 #logo:hover{
+    background: none;
+    color: #f2f2f2;
+}
+
+a.active:hover {
+background: #ddd;
+color: rgb(26, 20, 20);
+}
+
+.display_book{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main_pic{
+    width: 300px;
+    display: contents;
+}
+
+.main_pic img{
+    max-height: 700px;
+    max-width: fit-content;
+    padding-left: 30px;
+    padding-right: 20px;
+    flex: 2;
+    
+}
+
+.side_pic img{
+    display: block;
+    margin-bottom: 25px;
+}
+
+#decorated{
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+#backside {
+    width: 200px;
+}
+
+#creator {
+    width: 200px;
+}
+
+.description{
+    margin-top: 150px;
+}
+
+#desc {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Lora', serif;
+    background-color: #b8c27e;
+}
+
+#author_name {
+    width: fit-content;
+    margin-left: 350px;
+    margin-right: 80px;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Lora', serif;
+    background-color: #b8c27e;
+}
+
+#button{
+    width: fit-content;
+    margin-left: 380px;
+    margin-right: 80px;
+    padding: 20px;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+}
+
+footer nav{
+    position: fixed;
+    background-color: #333;;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+}
+
+footer nav a{
+    padding: 10px;
+    font-size: 16px;
+    color: #ddd;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer nav a:hover{
+    background-color:#947474;
+}
